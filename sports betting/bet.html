@@ -1,0 +1,73 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <link rel="stylesheet" href="bet.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+      <div class="head">
+        <div class="first-section">start beting</div>
+        <div class="middle">Visual Sports Bet</div>
+        <div class="balance"><span class="naira">NGN</span><span class="bal"></span></div>
+      </div>
+        <div >
+          <img class="ball-anime" src="clubs-image/soccer.jpg" >
+        </div>
+
+        <div class="gameplay-section">
+          <div class="stallion"><p>Live Games</p></div>
+           <div class="field">
+            <div class="struct">
+ <div><img src="clubs-image/chelsea.png" alt=""></div> vs <div><img src="clubs-image/everton.png" alt=""></div>
+            </div>    
+           </div>
+         </div>
+    
+            <div class="bet-button">
+              <div>
+                <img src="clubs-image/soccer.jpg" alt=""> 
+              </div>
+               <div>
+                <button onclick="animation()" class="start-bet">Bet Now</button>
+               </div> 
+         </div>
+             <div class="structure">
+        <div class="games-section">
+          <p class="top">Games</p>
+        </div>
+ <div class="predictions">
+         <p class="top">predictions</p>
+         <div class="pred">
+         </div>
+          <div class="bet-sec">
+  <div class="play-btn"><button onclick="analise()">stake</button></div>
+  <div class="amt"><p class="value">100</p><button onclick="addValue()">+</button><button onclick="removeValue()">-</button></div>
+          </div>
+ </div>
+             </div>
+
+             <div class="popup">
+              <p> You can NOT make more than one prediction at a time</p> 
+                <p>stake the current game and predict again</p>
+             </div>
+
+             <div class="popup-2">
+              <p>congratulations you won the stake</p>
+             </div>
+
+             <div class="popup-3">
+              <p>sorry you lost the stake</p>
+             </div>
+
+           <div class="footer">
+            <button onclick="animation()">create more games</button>
+           </div>
+
+            <audio class="swoosh" src="audio_files/designed-fire-winds-swoosh-04-116788.mp3"></audio>
+            <audio class="stadium" src="audio_files/soccer-stadium-10-6709.mp3"></audio>
+            <audio class="goal" src="audio_files/football-game-in-a-big-arena-31575.mp3"></audio>
+     <script src="bet.js"></script>
+  </body>
+  </html>
